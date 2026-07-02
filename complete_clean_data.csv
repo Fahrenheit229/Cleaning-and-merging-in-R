@@ -1,0 +1,7 @@
+"Patient_ID","Sample_id","Age","Gene_name","CT_value","Detection","Gene_family","Date_Collected","Infection","Ward"
+"P1","S1",45,"kpc-2",25.3,"positive","kpc",2024-01-15,"pneumonia","icu"
+"P2","S2",32,"ndm-1",28.7,"positive","ndm",2024-01-16,"uti","general"
+"P3","S3",58,"oxa-48",24.1,"positive","oxa",2024-01-15,"sepsis","icu"
+"P4","S4",41,"kpc-3",29.2,"negative","kpc",2024-01-17,"pneumonia","general"
+"P5","S5",36,"ndm-5",27.5,"negative","ndm",2024-01-18,"wound","er"
+"P6","S6",52,"oxa-181",26.8,"positive","oxa",2024-01-20,"uti","general"
