@@ -78,11 +78,10 @@ patient_summary <- complete_data %>%
   select(Patient_ID, Gene_name, Detection, CT_value) %>% 
   filter(Detection == "positive") %>% 
   group_by(Patient_ID) %>% 
-  summarise(
-    n_positive_genes = n(), Gene_name)
-
-write_delim(patient_summary, "table2")
+  summarise(n_positive_genes = n(), Gene_name)
 
 complete_data %>% 
   flextable() %>% 
   save_as_docx(path = "complete_data_clean.docx")
+write.csv(complete_data, "complete_data_clean.csv", row.names = FALSE)
+
